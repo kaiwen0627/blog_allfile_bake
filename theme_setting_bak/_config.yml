@@ -1,3 +1,4 @@
+--- # ---------------------------------------------------------------
 # ===============================================================
 # ========================= ATTENTION! ==========================
 # ===============================================================
@@ -8,7 +9,6 @@
 
 # ---------------------------------------------------------------
 # Theme Core Configuration Settings
-# ---------------------------------------------------------------
 language: zh-CN
 # Set to true, if you want to fully override the default configuration.
 # Useful if you don't want to inherit the theme _config.yml configurations.
@@ -35,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, kaiwen"
+keywords: 'Hexo, kaiwen'
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -81,7 +81,6 @@ seo: true
 # subtitle: Subtitle
 index_with_subtitle: false
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -92,18 +91,17 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: / || home  
+  home: / || home
   tags: /tags/ || tags
   categories: /categories/ || th
-  archives: /archives/ || archive 
-  about: /about/ || user 
+  archives: /archives/ || archive
+  about: /about/ || user
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
-
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -114,7 +112,6 @@ menu_icons:
 #scheme: Mist
 scheme: Pisces
 #scheme: Gemini
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -128,10 +125,8 @@ scheme: Pisces
 social:
   GitHub: https://github.com/kaiwen0627 || github
   E-Mail: mailto:kaiwen0425@gmail.com || envelope
-  ÷™∫ı: https://www.zhihu.com/people/kaiwen0425/activities
-  Œ¢≤©: https://weibo.com/u/5075683550?refer_flag=1001030101_&is_hot=1
-  
-  
+  Áü•‰πé: https://www.zhihu.com/people/kaiwen0425/activities
+  ÂæÆÂçö: https://weibo.com/u/5075683550?refer_flag=1001030101_&is_hot=1
 
 social_icons:
   enable: true
@@ -144,7 +139,7 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 #links:
-  #Title: http://example.com/
+#Title: http://example.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -194,7 +189,6 @@ sidebar:
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
 
-
 # ---------------------------------------------------------------
 # Post Settings
 # ---------------------------------------------------------------
@@ -234,7 +228,7 @@ post_wordcount:
 wechat_subscriber:
   enabled: true
   qcode: /uploads/wx.jpg
-  description: ª∂”≠ƒ˙…®“ª…®…œ√ÊµƒŒ¢–≈π´÷⁄∫≈πÿ◊¢Œ“°£
+  description: Ê¨¢ËøéÊÇ®Êâ´‰∏ÄÊâ´‰∏äÈù¢ÁöÑÂæÆ‰ø°ÂÖ¨‰ºóÂè∑ÂÖ≥Ê≥®Êàë„ÄÇ
 
 # Reward
 #reward_comment: Donate comment here
@@ -248,7 +242,6 @@ post_copyright:
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -257,7 +250,7 @@ post_copyright:
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($black-deep).
-android_chrome_color: "#222"
+android_chrome_color: '#222'
 
 # Custom Logo.
 # !!Only available for Default Scheme currently.
@@ -273,7 +266,6 @@ custom_logo:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: night
-
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -330,7 +322,6 @@ font:
     family:
     size:
 
-
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # ---------------------------------------------------------------
@@ -368,21 +359,19 @@ changyan:
   appid:
   appkey:
 
-
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
   enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  appid: # your leancloud application appid
+  appkey: # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
-
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -421,7 +410,7 @@ baidushare: true
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
 #jiathis:
-  ##uid: Get this uid from http://www.jiathis.com/
+##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
 # Share
@@ -491,36 +480,36 @@ duoshuo_info:
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: false
+  app_id: #<app_id>
+  fb_admin: #<user_id>
+  like_button: #true
+  webmaster: #true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # min posts num is 1
-  width:        100%  # default width is 550px
-  scheme:       light # default scheme is light (light or dark)
+  enable: false
+  num_of_posts: 10 # min posts num is 1
+  width: 100% # default width is 550px
+  scheme: light # default scheme is light (light or dark)
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
-  enable:       false
-  app_id:       #<app_id>
-  like:         true
-  comments:     true
+  enable: false
+  app_id: #<app_id>
+  like: true
+  comments: true
   num_of_posts: 10
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
-  color:  fc6423
+  id: #<app_id>
+  color: fc6423
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -558,13 +547,11 @@ busuanzi_count:
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
 
-
 # Tencent analytics ID
 # tencent_analytics:
 
 # Tencent MTA ID
 # tencent_mta:
-
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
@@ -594,7 +581,7 @@ algolia_search:
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}"
-    hits_stats: "${hits} results found in ${time} ms"
+    hits_stats: '${hits} results found in ${time} ms'
 
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
@@ -605,7 +592,6 @@ local_search:
   trigger: auto
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -640,7 +626,6 @@ tabs:
     tabs: false
     labels: true
   border_radius: 0
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -797,7 +782,6 @@ vendors:
   # needMoreShare2
   # https://github.com/revir/need-more-share2
   needMoreShare2:
-
 
 # Assets
 css: css
