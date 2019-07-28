@@ -1,7 +1,7 @@
 commit_info=$1
 if [ -z "$1" ]
 then
-   echo "place input commit_info"   
+   echo "place input commit_info:"   
    read commit_info
 fi
 echo "bake theme_setting"
@@ -12,7 +12,7 @@ hexo clean
 hexo d -g
 
 echo "back all file to github"
-git state
+git status
 git add .
 git commit -m ${commit_info}
 git push origin master
