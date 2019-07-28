@@ -37,10 +37,8 @@ console.log(uniq(arr)); // [ 1, 2,'2', 3, 4, 5 ]
 
 - 5个球进行排序，需要比较4轮，共比较次数 4+3+2+1=10次。
 - 比较此时公式：
-  
-$$
-\sum_{i=1} ^{i=n-1} i
-$$
+
+   ![eQjVAA.png](https://s2.ax1x.com/2019/07/28/eQjVAA.png)
 
 ```js
 // 1. bubbleSort不是纯函数，会直接改变引用类型的arr
