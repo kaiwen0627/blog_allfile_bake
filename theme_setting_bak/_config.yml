@@ -9,7 +9,7 @@
 # ---------------------------------------------------------------
 # Theme Core Configuration Settings
 # ---------------------------------------------------------------
-
+language: zh-Hans
 # Set to true, if you want to fully override the default configuration.
 # Useful if you don't want to inherit the theme _config.yml configurations.
 override: false
@@ -235,7 +235,7 @@ wechat_subscriber:
   enabled: true
   qcode: /uploads/wx.jpg
   description: 欢迎您扫一扫上面的微信公众号关注我。
-  
+
 # Reward
 #reward_comment: Donate comment here
 #wechatpay: /images/wechatpay.jpg
@@ -348,7 +348,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 5fa9fbd44c4b59554f025c182fcb517e
 
 # Duoshuo ShortName
 #duoshuo_shortname:
