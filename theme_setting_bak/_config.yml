@@ -655,7 +655,7 @@ motion:
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -693,8 +693,8 @@ canvas_sphere: false
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
   enable: true
-  size: 300
-  alpha: 0.6
+  size: 10
+  alpha: 0.4
   zIndex: -1
 
 # Script Vendors.
