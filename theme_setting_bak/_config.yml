@@ -235,7 +235,7 @@ wechat_subscriber:
   enabled: true
   qcode: /uploads/wx.jpg
   description: 欢迎您扫一扫上面的微信公众号关注我。
-
+  
 # Reward
 #reward_comment: Donate comment here
 #wechatpay: /images/wechatpay.jpg
