@@ -51,7 +51,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright:
+  copyright: kaiwen0627
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: true
@@ -75,7 +75,7 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -126,7 +126,7 @@ scheme: Pisces
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/kaiweno425 || github
+  GitHub: https://github.com/kaiwen0627 || github
   E-Mail: mailto:kaiwen0425@gmail.com || envelope
   Öªºõ: https://www.zhihu.com/people/kaiwen0425/activities
   Î¢²©: https://weibo.com/u/5075683550?refer_flag=1001030101_&is_hot=1
@@ -186,7 +186,7 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
   scrollpercent: false
@@ -218,7 +218,7 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
